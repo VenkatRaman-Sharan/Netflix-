@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+}
+
+.main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#img1{
+    height: 100%;
+    width: 100%;
+}
+
+.main1 img{
+    position: absolute;
+    width: 200px;
+    top: 30px;
+}
+
+.main11{
+    position: absolute;
+    width: 94vw;
+    height: 400px;
+    left: 2vw;
+    top: 100px;
+    border: 3px white solid;
+    border-radius: 5px;
+}
+
+.main11 img{
+    height: 100%;
+    width: 100%;
+    filter: brightness(35%);
+    border-radius: 10px;
+}
+
+.main2{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 120px;
+    width: 80%;
+    left: 10%;
+}
+
+.main3{
+    position: absolute;
+    top: 320px;
+    width: 80%;
+    left: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.main3 img:hover{
+    transform: scale(1.1);
+    border: white solid 2px;
+}
+
+.main3 img{
+    height: 200px;
+    width: 150px;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+
+.main3 td{
+    padding: 20px;
+}
+
+.main4{
+    position: absolute;
+    top: 620px;
+    left: 32%;
+}
+.main4 input{
+    border-radius: 10px;
+    border:black solid 2px;
+    background-color: rgb(7, 7, 7,0.5);
+    color: white;
+    width: 300px;
+    height: 40px;
+}
+
+.main4 button{
+    border-radius: 10px;
+    background-color: rgb(199, 4, 4);
+    border:black solid 2px;
+    width: 100px;
+    height: 45px;
+}
+
+.main4 button:hover{
+    background-color: black;
+    color: white;
+    border:white solid 2px;
+
+}
+
+.main5{
+    position: absolute;
+    top: 30px;
+    left: 85%;
+}
+
+.main5 select{
+    border-radius: 10px;
+    border:black solid 2px;
+    background-color: rgb(7, 7, 7,0.5);
+    color: white;
+}
+
+.main5 button{
+    border-radius: 10px;
+    border:black solid 2px;
+    background-color: rgb(199, 4, 4);
+    color: black;
+}
+
+.main5 button:hover{
+    background-color: black;
+    color: white;
+}
+
+.main4 input:hover{
+    border-radius: 10px;
+    border:white solid 2px;
+    background-color: rgb(7, 7, 7,0.5);
+    color: white;
+    width: 300px;
+    height: 40px;
+}
